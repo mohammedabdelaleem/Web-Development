@@ -83,6 +83,11 @@ article {
   margin: 0 auto;
 }
 
+a:hover ,
+a:focus {
+  background-color: #832232;
+}
+
 .up-button,
 .down-button {
   text-decoration: none;
