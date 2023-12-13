@@ -1,0 +1,77 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-align: center;
+  color: rgb(253, 233, 233);
+}
+
+body {
+  /* background-image: url('../imgs/img3.jpg'); */
+  background-color: #123;
+  position: relative;
+}
+
+.container {
+  height: 100vh;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  position: relative;
+}
+
+h1 {
+  font-weight: 600;
+  margin: 70px auto;
+  position: relative;
+  text-decoration: underline blue 5px;
+  width: 40%;
+}
+
+h1:hover {
+  color: red;
+  transition: all .5;
+  text-decoration: underline green 5px;
+}
+
+.our-services {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.service {
+  padding: 30px;
+  flex-grow: 0;
+  width: 30%;
+}
+
+.service:hover,
+.service:focus {
+  transition: all 0.7s;
+  background-color: #303eff;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.our-services .service p {
+  margin-top: 8px;
+}
+
+i {
+  font-size: 30px;
+}
