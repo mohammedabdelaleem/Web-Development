@@ -1,0 +1,61 @@
+*{
+  border-radius: 8px;
+  text-align: center;
+}
+
+body {
+  background-image: linear-gradient(#16384c, rgb(47, 50, 95), #2f495f); /*by default from top to buttom*/
+  padding: 100px;
+  min-height: 800px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+section {
+  min-width: 400px;
+  height: 350px;
+  border: 5px solid white;
+  background-color: white;
+  text-align: center;
+  position: relative;
+  transition: all 0.8s;
+  margin: 10px auto 100px;
+}
+
+section:hover {
+  height: 400px;
+}
+
+img {
+  display: block;
+  width: 300px;
+  position: absolute;
+  top: -30px;
+  left: 50px;
+
+  transition: all .5s;
+
+}
+
+section:hover img {
+  top:-100px;
+  border-radius: 50%;
+  transform: rotate(720deg);
+
+}
+
+ .main-content {
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+
+    opacity: 0;
+    transition: all 1s;
+}
+
+section:hover .main-content {
+  opacity: 1;
+}

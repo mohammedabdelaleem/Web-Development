@@ -1,0 +1,13 @@
+p {
+  background-color: #def378;
+  padding: 20px;
+}
+
+.dark {
+    display: none;
+}
+
+.light {
+    color: royalblue;
+    text-align: center;
+}

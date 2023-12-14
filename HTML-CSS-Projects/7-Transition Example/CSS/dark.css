@@ -1,0 +1,15 @@
+p {
+    background-color: #1c1c1c;
+    color: white;
+    padding: 20px;
+  }
+  
+  .light {
+      display: none;
+  }
+  
+  .dark {
+      color: #123;
+      text-align: center;
+  }
+  
