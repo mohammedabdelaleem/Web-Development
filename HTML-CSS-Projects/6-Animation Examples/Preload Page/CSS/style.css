@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.preload-page {
+  width: 200px;
+  height: 200px;
+  margin: 500px auto;
+  border-radius: 50%;
+  border-top: 4px solid red;
+  border-right: 4px solid red;
+  animation: preload 1s infinite linear; /*linear is one of animation types*/
+}
+
+@keyframes preload {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+  
+}
